@@ -4,7 +4,6 @@
 #include <linux/i2c-dev.h>
 #include <ros/ros.h>
 #include <sensor_msgs/BatteryState.h>
-#include <wiringPiI2C.h>
 #include <errno.h>
 #include <cstring>
 

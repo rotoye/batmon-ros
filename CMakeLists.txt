@@ -138,7 +138,6 @@ add_executable(i2c_reader src/i2c_reader.cpp
 
 target_link_libraries(i2c_reader
 ${catkin_LIBRARIES}
-/usr/local/lib/libbcm2835.a -lwiringPi
 batmon_driver
 )
 ##---------------------------------##
